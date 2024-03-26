@@ -1,0 +1,492 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*header*/
+header {
+  border: solid 1px blue;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding: 1vh;
+}
+
+.headertopo {
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin-bottom: 1vh;
+}
+
+.imgSelfcare {
+  width: 10vw;
+}
+
+.imgPesquisa {
+  width: 6vw;
+}
+
+.imgbaner {
+  width: 100%;
+}
+
+.section1promo {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 7vw;
+  padding-right: 7vw;
+}
+
+.promo {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.produ {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.linha1 {
+  width: 100%;
+  border-bottom: 1px solid #000000;
+}
+
+.SectionProdutos {
+  width: 95vw;
+  height: 100%rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.DivPaiDosProdutos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 480px;
+  height: 630px;
+  margin-bottom: 5vw;
+}
+
+.FigureSectionProdutos {
+  display: flex;
+  justify-content: center;
+  background-color: #5ca720;
+  width: 474px;
+  height: 460px;
+}
+
+.ImgProduto {
+  width: 475px;
+  height: 460px;
+}
+
+.ImgProduto:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.EtiquetaProduto {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.PrecoProduto {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+span {
+  color: #5ca720;
+  text-decoration: underline;
+}
+
+.ButtonComprar {
+  width: 200px;
+  height: 60px;
+  border-radius: 15px;
+  border: 0;
+  border-color: #5ca720;
+  background-color: #5ca720;
+  box-shadow: 0 4px 8px #a5a1a1;
+  color: aliceblue;
+  font-size: 1rem;
+}
+
+.ButtonComprar:hover {
+  background-color: #512200;
+  transition: 0.5s;
+}
+
+/* A FOOTER  */
+
+footer {
+  width: 100%;
+  border-top: solid #a5a1a1 1px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #e4e3e3;
+}
+
+.SectionSuperiorFooter {
+  width: 87vw;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.LinkContato_E_Termos {
+  font-size: 0.8rem;
+  color: black;
+}
+
+.LinkContato_E_Termos:hover {
+  color: #5ca720;
+  transition: 0.5s;
+}
+
+.FormNewsletter {
+  width: 40%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.DivLabelNewsletter {
+  width: 93%;
+  height: 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.LabelNewsletter {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.DivInputE-mail {
+  width: 93%;
+  height: 40%;
+  display: flex;
+}
+
+.InputE-mail {
+  border: 0;
+  background-color: white;
+  padding: 1vh;
+  width: 75%;
+  height: 90%;
+  font-size: 1.2vw;
+}
+
+.ButtonInscrever {
+  width: 25%;
+  height: 90%;
+  border: 0;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  background-color: #5ca720;
+  color: aliceblue;
+  font-size: 1vw;
+  font-weight: bold;
+}
+
+.SectionInferiorFooter {
+  width: 100vw;
+  border-top: solid #a5a1a1 1px;
+  padding-left: 6vw;
+  padding-right: 6vw;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+.DivRedeSocialFooter {
+  width: 5vw;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ImgRedeSocial {
+  width: 80%;
+}
+
+.ImgRedeSocial:hover {
+  background-color: #d4f8b7;
+  transition: 0.5s;
+}
+
+.DivBandeirasFooter {
+  width: 10vw;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ImgBandeiras {
+  width: 80%;
+}
+
+.FigureSectionInferior {
+  margin-top: 2vw;
+}
+
+@media (min-width: 1305px) and (max-width: 1524px) {
+  /* section produtos */
+
+  .SectionProdutos {
+    width: 95vw;
+    height: 100%rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+
+  .DivPaiDosProdutos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 380px;
+    height: 540px;
+    margin-bottom: 5vw;
+  }
+
+  .FigureSectionProdutos {
+    width: 375px;
+    height: 370px;
+  }
+
+  .ImgProduto {
+    width: 375px;
+    height: 370px;
+  }
+
+  .EtiquetaProduto {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+
+  .PrecoProduto {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+
+  .ButtonComprar {
+    width: 200px;
+    height: 60px;
+    border-radius: 15px;
+    border: 0;
+    border-color: #5ca720;
+    background-color: #5ca720;
+    color: aliceblue;
+    font-size: 0.8rem;
+    box-shadow: 0 4px 8px #a5a1a1;
+  }
+
+  .DivRedeSocialFooter {
+    width: 8vw;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .ImgRedeSocial {
+    width: 80%;
+  }
+
+  .DivBandeirasFooter {
+    width: 16vw;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .ImgBandeiras {
+    width: 80%;
+  }
+
+  .FigureSectionInferior {
+    margin-top: 2vw;
+  }
+}
+
+@media (min-width: 1088px) and (max-width: 1304px) {
+  .SectionProdutos {
+    width: 95vw;
+    height: 100%rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+
+  .DivPaiDosProdutos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 330px;
+    height: 530px;
+    margin-bottom: 3vw;
+  }
+
+  .FigureSectionProdutos {
+    width: 325px;
+    height: 340px;
+  }
+
+  .ImgProduto {
+    width: 325px;
+    height: 340px;
+  }
+
+  .EtiquetaProduto {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+
+  .PrecoProduto {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+
+  .ButtonComprar {
+    width: 200px;
+    height: 60px;
+    border-radius: 15px;
+    border: 0;
+    border-color: #5ca720;
+    background-color: #5ca720;
+    color: aliceblue;
+    font-size: 0.8rem;
+    box-shadow: 0 4px 8px #a5a1a1;
+  }
+
+  footer {
+    width: 100vw;
+    border-top: solid #a5a1a1 1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #e4e3e3;
+  }
+
+  .FormNewsletter {
+    width: 45%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .DivLabelNewsletter {
+    width: 93%;
+    height: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .LabelNewsletter {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+
+  .DivInputE-mail {
+    width: 98%;
+    height: 40%;
+    display: flex;
+  }
+
+  .InputE-mail {
+    border: 0;
+    background-color: white;
+    padding: 1vh;
+    width: 80%;
+    height: 90%;
+    font-size: 1.2vw;
+  }
+
+  .ButtonInscrever {
+    width: 30%;
+    height: 90%;
+    border: 0;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: #5ca720;
+    color: aliceblue;
+    font-size: 1vw;
+    font-weight: bold;
+  }
+
+  .DivRedeSocialFooter {
+    width: 8vw;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .ImgRedeSocial {
+    width: 90%;
+  }
+
+  .DivBandeirasFooter {
+    width: 14vw;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .ImgBandeiras {
+    width: 90%;
+  }
+
+  .FigureSectionInferior {
+    margin-top: 2vw;
+  }
+}
+
+@media (min-width: 930px) and (max-width: 1087px) {
+ 
